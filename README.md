@@ -1,7 +1,7 @@
 # hmm-example
 An example of an Hidden Markov Model in Scala using Figaro.
 
-To run the examples or code interactively
+To run interactively
 * clone this repo
 * at the command line, in the `code` folder, type `sbt console`
 * to run the examples, type `import hmm.examples._` and go
