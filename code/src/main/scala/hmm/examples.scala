@@ -37,7 +37,7 @@ object examples {
 
     }
 
-    def mostLikelyBothWaysExample() = {
+    def mostLikelyExample() = {
     
         // Make an HMM of length 4 with the parameters from Stamp's tutorial
         // Stamp <=> us conversion:
