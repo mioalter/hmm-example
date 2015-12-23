@@ -1,5 +1,5 @@
 # hmm-example
-An example of an Hidden Markov Model in Scala using Figaro.
+An example of a Hidden Markov Model in Scala using Figaro.
 
 To run interactively
 * clone this repo
