@@ -64,13 +64,13 @@ object examples {
         // mostLikelyHiddenSequence = List(Rainy, Rainy, Rainy, Sunny)
         // we have to do a little hack to reformat these to compute the probability of each
 
-        // Reformat list as a tuple...
+        // Reformat List[Element] as an Element[Tuple]
         val t = for {
             a <- hmm.hidden(0)
             b <- hmm.hidden(1)
             c <- hmm.hidden(2)
             d <- hmm.hidden(3)
-        } yield (a,b,c,d) // : (Element[H], Element[H], Element[H], Element[H]) rather than List[Element[H]]
+        } yield (a,b,c,d) // : Element[(H,H,H,H)] rather than List[Element[H]]
 
         // ...and compute probabilities
         val p_states = VariableElimination.probability(t, (Rainy, Sunny, Rainy, Sunny))
