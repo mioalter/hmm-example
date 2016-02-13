@@ -1,6 +1,5 @@
 package hmm
 
-//import hmm.warmUp._
 import hmm.types._
 import hmm.ourHMM._
 import hmm.inference._
