@@ -1,7 +1,7 @@
 package hmm
 
 import com.cra.figaro.language._
-import hmm.warmUp._
+import hmm.types._
 
 object ourHMM {
 
